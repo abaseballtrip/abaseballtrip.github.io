@@ -1,0 +1,482 @@
+/*-- iPhone X Remove Gutters --*/
+html {
+    padding: env(safe-area-inset);
+}
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html, body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.text-baseball {
+    color: #0C2340;
+    font-weight: 700; 
+
+}
+
+.color {
+    color: #0C2340;
+    font-weight: 700; 
+
+}
+
+.navbar {
+    padding: .7rem 1rem; 
+    text-transform: uppercase;
+    font-weight: 400; 
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    transition: background-color .5s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    justify-content: stretch;
+}
+
+.navbar-nav li {
+    padding-right: .8rem; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+navbar-nav .nav-link:active,
+.navbar-nav .nav-link:hover {
+    color: #0C2340;
+}
+
+.custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem; 
+}
+
+/*-- Remove Button Outline --*/
+button:focus, a:focus a.btn:focus {
+    outline: 0; 
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+button, a, a.btn, .svg-inline--fa {
+    transition: all .6s ease; 
+}
+
+.navbar.solid,
+.navbar.solid-toggle {
+    background: rgba(182, 3, 3, 0.918) !important;
+    transition: background-color 1s ease 0s;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: table; 
+    z-index: -1;
+}
+
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    top: 0;
+    left: 0; 
+}
+
+.home-inner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(../img/SD1.jpeg);
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center top;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    display: table; 
+    
+}
+
+
+.caption {
+    z-index: 1;
+    position: absolute; 
+    top: 30%; 
+    width: 100%; 
+    max-width: 100%; 
+
+}
+
+.caption h1 {
+    font-size: 4.5rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption h3 {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+
+.tour {
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    margin: 5px;
+}
+
+
+/*-- Bouncing Down Arrow -- */
+
+.arrow {
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    /* animation: bounce 1s infinite; 
+    -webkit-animation: bounce 1s infinite; */
+}
+
+.down-arrow .svg-inline--fa {
+    color: white;
+    font-size: 2.2rem; 
+    opacity: .8;
+}
+
+.down-arrow .svg-inline--fa:hover {
+    opacity: .5;
+}
+
+
+/*============= FEATURES SECTION =============*/
+
+.btn-lg {
+    border-radius: 0; 
+    padding: .5rem 1.1rem; 
+    text-transform: uppercase;
+    margin: 1rem; 
+}
+
+.btn-sm {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 1rem;
+  }
+
+.btn-al {
+    background-color: #0C2340;
+    color: white; 
+}
+
+.btn-al:hover {
+    background-color: rgb(30, 109, 212);
+    color: white; 
+}
+
+.btn-nl {
+    background-color: rgb(119, 4, 4);
+    color: white; 
+}
+
+.btn-nl:hover {
+    background-color: rgb(224, 13, 13);
+    color: white; 
+}
+
+.offset:before {
+    content: ""; 
+    height: 4rem; 
+    display: block; 
+    margin-top: -4rem; 
+}
+
+#features h1{
+    text-transform: uppercase;
+}
+
+/*============= PORTFOLIO SECTION =============*/
+
+.port-item img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in; 
+
+}
+
+.port-item img {
+    transition: transform .4s ease;
+    border: 1px solid black; 
+}
+
+/*============= AMERICAN LEAGUE =============*/
+
+.american {
+    background-color: #0C2340;
+    color: white;
+    font-size: 1.2rem; 
+    padding-bottom: 50px; 
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.balt {
+    background-color: #DF4601;
+    color: black; 
+}
+
+.boston {
+    background-color: #BD3039;
+    color: white; 
+}
+
+.yankees {
+    background-color: #0C2340;
+    color: white;
+}
+
+.tampa {
+    background-color: #092C5C;
+    color: #F5D130;
+}
+
+.toronto {
+    background-color: #134A8E;
+    color: white; 
+}
+
+.whitesox {
+    background-color: #27251F;
+    color: white; 
+}
+
+.clev {
+    background-color: #0C2340;
+    color: #E31937;
+}
+
+.detroit {
+    background-color: #0C2340;
+    color: #FA4616;
+}
+
+.kc {
+    background-color: #004687;
+    color: #BD9B60; 
+}
+
+.minn {
+    background-color: #002B5C;
+    color: #D31145;
+}
+
+.hou {
+    background-color: #EB6E1F;
+    color: #002D62;
+}
+
+.oak {
+    background-color: #003831;
+    color: #EFB21E;
+}
+
+.sea {
+    background-color: #0C2C56;
+    color: #005C5C;
+}
+
+.laa {
+    background-color: #BA0021;
+    color: #003263;
+}
+
+.tex {
+    background-color: #003278;
+    color: #C0111F;
+}
+
+
+/*============= NATIONAL LEAGUE =============*/
+
+
+
+.national {
+    background-color: rgb(119, 4, 4);
+    color: white;
+    font-size: 1.2rem; 
+    padding-bottom: 50px; 
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.atl {
+    background-color: #13274F;
+    color: #CE1141;
+}
+
+.mia {
+    background-color: #000000;
+    color: #00A3E0;
+}
+
+.nym {
+    background-color: #002D72;
+    color: #FF5910;
+}
+
+.phi {
+    background-color: #E81828;
+    color: #002D72;
+}
+
+.was {
+    background-color: #AB0003;
+    color: white; 
+}
+
+.cin{
+    background-color: #C6011F;
+    color: white; 
+}
+
+.chi {
+    background-color: #0E3386;
+    color: white;
+}
+
+.mil {
+    background-color: #0A2351;
+    color: #B6922E;
+}
+
+.pit {
+    background-color: #FDB827;
+    color: #27251F;
+}
+
+.stl {
+    background-color: #002B5C;
+    color: #D31145;
+}
+
+.az {
+    background-color: #A71930;
+    color: white;
+}
+
+.col {
+    background-color: #33006F;
+    color: #C4CED4;
+}
+
+.lad {
+    background-color: #005A9C;
+    color: white;
+}
+
+.sdp {
+    background-color: #2F241D;
+    color: #FFC425;
+}
+
+.sfg {
+    background-color: #27251F;
+    color: #FD5A1E;
+}
+
+
+ul.social {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    font-size: 1.9rem; 
+}
+
+ul.social li {
+    display: inline; 
+    padding-right: .4rem; 
+
+}
+
+ul.social li a {
+    color: white; 
+}
+
+.icon {
+    list-style: none;
+    padding: 0.5rem; 
+    font-size: 1.9rem; 
+    
+}
+
+.icon a {
+    color: white;
+}
+
+.icon a:hover {
+    color: #0C2340; 
+    transition: all .05s ease; 
+}
+
+.footer {
+    background: url('../img/footer.png') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.row.outer {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem; 
+}
+
+
+
+.footer a,
+.footer ul.social li a {
+    color: white; 
+}
+
+.footer a,
+.footer ul.social li a:hover {
+    color: blue; 
+    transition: all .05s ease; 
+}
+
+
+.footer h3 {
+    text-transform: uppercase;
+    }
+
+.form-group {
+    margin-bottom: 1.3rem; 
+}
+
+.form-control {
+    background-color: #53595f; 
+    border-radius: 0; 
+    border: .15rem solid #666b71; 
+    color: white!important; 
+    font-size: 1.1rem; 
+}
+
+.form-control:focus {
+    background-color: #53595f; 
+        border: .15rem solid #666b71; 
+}
+
+.form-group input::placerholder, 
+.form-group textarea::placerholder {
+    color: #b2b5b8!important; 
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71; 
+    width: 100%; 
+}
