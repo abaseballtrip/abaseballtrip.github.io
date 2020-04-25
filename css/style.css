@@ -72,7 +72,7 @@ button, a, a.btn, .svg-inline--fa {
 .landing {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     display: table; 
     z-index: -1;
 }
@@ -134,25 +134,6 @@ button, a, a.btn, .svg-inline--fa {
 }
 
 
-/*-- Bouncing Down Arrow -- */
-
-.arrow {
-    position: absolute;
-    top: 57%;
-    width: 100%;
-    /* animation: bounce 1s infinite; 
-    -webkit-animation: bounce 1s infinite; */
-}
-
-.down-arrow .svg-inline--fa {
-    color: white;
-    font-size: 2.2rem; 
-    opacity: .8;
-}
-
-.down-arrow .svg-inline--fa:hover {
-    opacity: .5;
-}
 
 
 /*============= FEATURES SECTION =============*/
@@ -516,7 +497,7 @@ a.top-scroll:hover {
     .caption {
         z-index: 1;
         position: absolute; 
-        top: 20%; 
+        top: 15%; 
         width: 100%; 
         max-width: 100%; 
     
