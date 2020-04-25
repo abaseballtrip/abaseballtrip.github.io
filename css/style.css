@@ -594,8 +594,22 @@ a.top-scroll:hover {
         display: table; 
         z-index: -1;
     }
-    
 
+    .national {
+        font-size: 1.5rem;
+    }
+ 
+    .american {
+     font-size: 1.5rem;
+ }
+    
+ .american h2{
+     padding-top: 25px; 
+ }
+
+ .national h2{
+    padding-top: 25px; 
+}
 
 }
 
@@ -643,7 +657,6 @@ a.top-scroll:hover {
         font-size: 2rem; 
     };
 
-   
 
 
 
