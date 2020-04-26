@@ -14,7 +14,7 @@ $(document).ready(function () {
     $(window).scroll(checkScroll);
     $('.navbar-toggler').click(function (){
         if ($(window).scrollTop() <=300) {
-            $('nav.navbar').toggledClass('solid-toggle');
+            $('nav.navbar').toggledClass('solid');
         }
     });
 });
