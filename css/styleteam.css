@@ -1,0 +1,486 @@
+/*-- iPhone X Remove Gutters --*/
+html {
+    padding: env(safe-area-inset);
+}
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html, body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.text-baseball {
+    color: #0C2340;
+    font-weight: 700; 
+
+}
+
+.color {
+    color: #0C2340;
+    font-weight: 700; 
+
+}
+
+.navbar {
+    padding: .7rem 1rem; 
+    text-transform: uppercase;
+    font-weight: 400; 
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    transition: background-color .5s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    justify-content: stretch;
+}
+
+.navbar-nav li {
+    padding-right: .8rem; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:hover {
+    color: #0C2340;
+}
+
+.custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem; 
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-toggle:active, .dropdown-toggle:focus {
+  color: white!important;
+  background-color: #0C2340; 
+  
+}
+.dropdown-submenu.solid, .dropdown-menu.show.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+}
+
+.dropdown-menu, .dropdown-item {
+    font-size: 1rem;
+    font-weight: 400!important;
+        border: 0;
+  }
+
+/*-- Remove Button Outline --*/
+button:focus, a:focus a.btn:focus {
+    outline: 0; 
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+button, a, a.btn, .svg-inline--fa {
+    transition: all .6s ease; 
+}
+
+.navbar.solid,
+.navbar.solid-toggle {
+    background: rgba(182, 3, 3, 0.918) !important;
+    transition: background-color 1s ease 0s;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    display: table; 
+    z-index: -1;
+}
+
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    top: 0;
+    left: 0; 
+}
+
+.home-inner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(../img/NYYDay.jpeg);
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center top;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    display: table; 
+    
+}
+
+
+.caption {
+    z-index: 1;
+    position: absolute; 
+    top: 10%; 
+    width: 100%; 
+    max-width: 100%; 
+
+}
+
+.caption h1 {
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+
+    
+}
+
+.caption h3 {
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+
+.tour {
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    margin: 5px;
+}
+
+
+
+
+/*============= FEATURES SECTION =============*/
+
+
+.mainPic {
+    height: 50vh;
+    width: 100%; 
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+  }
+ 
+
+/*============= PORTFOLIO SECTION =============*/
+
+.port-item img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in; 
+
+}
+
+.port-item img {
+    transition: transform .4s ease;
+    border: 1px solid black; 
+}
+
+
+
+ul.social {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    font-size: 1.9rem; 
+}
+
+ul.social li {
+    display: inline; 
+    padding-right: .4rem; 
+
+}
+
+ul.social li a {
+    color: white; 
+}
+
+.icon {
+    list-style: none;
+    padding: 0.5rem; 
+    font-size: 1.9rem; 
+    
+}
+
+.icon a {
+    color: white;
+}
+
+.icon a:hover {
+    color: #0C2340; 
+    transition: all .05s ease; 
+}
+
+.footer {
+    background: url('../img/footer.png') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.row.outer {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem; 
+}
+
+
+
+.footer a,
+.footer ul.social li a {
+    color: white; 
+}
+
+.footer a,
+.footer ul.social li a:hover {
+    color: blue; 
+    transition: all .05s ease; 
+}
+
+
+.footer h3 {
+    text-transform: uppercase;
+    }
+
+.form-group {
+    margin-bottom: 1.3rem; 
+}
+
+.form-control {
+    background-color: #53595f; 
+    border-radius: 0; 
+    border: .15rem solid #666b71; 
+    color: white!important; 
+    font-size: 1.1rem; 
+}
+
+.form-control:focus {
+    background-color: #53595f; 
+        border: .15rem solid #666b71; 
+}
+
+.form-group input::placeholder, 
+.form-group textarea::placeholder {
+    color: #b2b5b8!important; 
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71; 
+    width: 100%; 
+}
+
+a.top-scroll {
+    right: 1.2rem; 
+    bottom: 1.2rem;
+    position: fixed; 
+    opacity: .3;
+    z-index: 1000; 
+    display: none; 
+}
+
+a.top-scroll:hover {
+    opacity: .5;
+}
+
+.top-scroll .svg-inline--fa {
+    background: white;
+    color: #53595f;
+    font-size: 3rem;
+    height: 1.7rem; 
+}
+
+.mail a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+@media (max-width: 1199.98px) {
+  
+    .caption {
+        z-index: 1;
+        position: absolute; 
+        top: 10%; 
+        width: 100%; 
+        max-width: 100%; 
+    
+    }
+    
+    .caption h1 {
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+         
+        
+    }
+    
+    .caption h3 {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+      
+    }
+
+    .navbar {
+        padding: .2rem .7rem; 
+        text-transform: uppercase;
+        font-weight: 700; 
+        letter-spacing: .1rem;
+        font-size: .8rem;
+        transition: background-color .5s ease;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        will-change: transform;
+        justify-content: stretch;
+    }
+
+
+
+
+
+}
+
+
+
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  
+    .caption {
+        z-index: 1;
+        position: absolute; 
+        top: 10%; 
+        width: 100%; 
+        max-width: 100%; 
+    
+    }
+    
+    .caption h1 {
+        font-size: 3rem;
+        letter-spacing: .2rem;
+         
+        
+    }
+    
+    .caption h3 {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+      
+    }
+
+    .btn-lg {
+        border-radius: 0; 
+        padding: .2rem .8rem; 
+        text-transform: uppercase;
+        margin: .5rem; 
+    }
+
+ 
+
+};
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+    .caption {
+        z-index: 1;
+        position: absolute; 
+        top: 10%; 
+        width: 100%; 
+        max-width: 100%; 
+    
+    }
+
+    .caption h1 {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        
+        
+    }
+    
+    .caption h3 {
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+      
+    }
+
+    .btn-lg {
+        border-radius: 0; 
+        padding: .2rem .8rem; 
+        text-transform: uppercase;
+        margin: .4rem; 
+    }
+
+
+
+    #features h1 {
+        font-size: 2rem; 
+    }
+
+    .small {
+        display: none;
+    }
+
+    
+};
+
+/* Devices under 576px (sm) */
+
+@media (max-width: 575.98px) {
+    .caption h1 {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        display: none; 
+        
+        
+    }
+    
+    .caption h3 {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        display: none; 
+      
+    }
+
+    .btn-lg {
+        border-radius: 0; 
+        padding: .2rem .2rem; 
+        text-transform: uppercase;
+        margin: .2rem; 
+        
+    }
+
+    #features h1 {
+        font-size: 1.7rem; 
+    };
+
+   
+};
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
